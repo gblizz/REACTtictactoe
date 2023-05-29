@@ -91,7 +91,7 @@ import './index.css';
 
       const moves = history.map((step, move) => {
         const desc = move ?
-          'Go to move #' + move + 'gridLoc:' + this.state.gridLoc:
+          'Go to move #' + move + ' gridLoc:' + this.state.gridLoc:
           'Go to game start';
         return (
           <li key={move}>
